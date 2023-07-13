@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Clima</title>
+</head>
+
+<body onload="onLoad()">
+    <div id="loader" class="loader">Loading...</div>
+    <div id="container" class="contaier">
+        <div class="block">
+            <div id="location"></div>
+            <div id="date"></div>
+            <div id="description"></div>
+            <br>
+            <div id="creador">creado por: <span id="nombre">Esteban La Spada</span></div>
+        </div>
+        <div class="block">
+            <div class="information-container">
+                Temperatura
+                <div class="information" id="temperature"></div>°C
+            </div>
+            <br>
+            <div class="information-container">
+                Humedad
+                <div class="information" id="humidity"></div>%
+            </div>
+            <br>
+            <div class="information-container">
+                Presión
+                <div class="information" id="pressure"></div>hPa
+            </div>
+        </div>
+    </div>
+    <script src="./climaa.js"></script>
+</body>
+</html>
